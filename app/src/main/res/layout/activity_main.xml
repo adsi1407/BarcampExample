@@ -18,6 +18,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/txtLogin"
         android:singleLine="true"
         android:imeOptions="actionNext"
         android:hint="@string/user_placeholder"
@@ -26,6 +27,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/txtPassword"
         android:imeOptions="actionDone"
         android:hint="@string/pass_placeholder"
         android:drawableLeft="@mipmap/ic_password"/>
