@@ -16,6 +16,9 @@
     <string name="pass_placeholder">Clave</string>
     <string name="login_button_text">Ingresar</string>
 
+    <string name="empty_fields">Por favor ingrese sus datos</string>
+    <string name="wrong_user">Error en el usuario o la clave</string>
+
     <string name="welcome_message">Bienvenido, este es un ejemplo</string>
     <string name="message_button_text">Mostrar Mensaje</string>
     <string name="message_text">Hola, este es un mensaje</string>
