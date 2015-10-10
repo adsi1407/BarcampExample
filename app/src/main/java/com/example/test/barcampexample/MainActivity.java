@@ -65,7 +65,7 @@ public class MainActivity extends ActionBarActivity {
         usersList.add(user);
         user = new User("10456474", "Sebastian", "654321", "3005674983", "Calle 5");
         usersList.add(user);
-        user = new User("50052643", "Angela", "960584", "3156452897", "Calle 80");
+        user = new User("50052643", "Angela", "105383", "3156452897", "Calle 80");
         usersList.add(user);
         user = new User("24379845", "Sandra", "068977", "3215678435", "Calle 1");
         usersList.add(user);
