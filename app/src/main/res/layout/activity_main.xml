@@ -10,12 +10,6 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-    <TextView
-        android:text="@string/login_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"/>
-
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -26,17 +20,20 @@
         android:layout_height="wrap_content"
         android:singleLine="true"
         android:imeOptions="actionNext"
-        android:hint="@string/user_placeholder"/>
+        android:hint="@string/user_placeholder"
+        android:drawableLeft="@mipmap/ic_user"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:imeOptions="actionDone"
-        android:hint="@string/pass_placeholder"/>
+        android:hint="@string/pass_placeholder"
+        android:drawableLeft="@mipmap/ic_password"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/login_button_text"/>
+        android:text="@string/login_button_text"
+        android:id="@+id/btnLogin"/>
 
 </LinearLayout>
